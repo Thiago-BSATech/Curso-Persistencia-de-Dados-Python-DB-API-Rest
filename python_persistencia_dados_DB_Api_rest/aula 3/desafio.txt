@@ -1,0 +1,32 @@
+DESAFIO 1:
+
+Você foi contratado para desenvolver 2 sistemas:
+
+Um sistema bancário que exige registros altamente estruturados, consistência de dados e relações complexas entre contas, clientes e transações.
+
+Um aplicativo de rede social que precisa armazenar dados de usuários, postagens com formatos variados e comentários dinâmicos.
+
+Questão:
+Qual tipo de banco de dados (relacional ou não relacional) você escolheria para cada caso? Justifique sua escolha com base nas características de cada abordagem.
+
+Sistema bancário: DB Não relacional
+Rede Social: DB Relacional 
+
+DESAFIO 2:
+
+Você foi convidado para dar uma consultoria referente a bancos de dados. Considere um banco de dados relacional com as seguintes tabelas:
+
+alunos(id, nome)
+
+disciplinas(id, nome)
+
+matriculas(aluno_id, disciplina_id)
+
+Questões:
+
+Qual é a chave primária de cada tabela?: O ID é a chave primária de "alunos" e "diciplinas", em "matriculas", a chave primária são os seus dois campos
+"aluno_id" e "disciplina_id", chamando-se de chave primária composta.
+
+
+Quais campos funcionam como chaves estrangeiras e o que isso significa?: além de ser uma chave primaria composta, em "matriculas"
+seus campos de "aluno_id" e "disciplina_id" são chaves estrangeiras, ao qual é uma chave primaria de outra tabela para identificar e juntar com a outra.
